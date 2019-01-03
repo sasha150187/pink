@@ -1,0 +1,52 @@
+.form-header__competition-title {
+  font-family: $font-family;
+  font-size: 24px;
+  line-height: 29px;
+  color: $white-color;
+  font-weight: 300;
+  width: 100%;
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 25px;
+  padding-bottom: 54px;
+}
+
+.person-info__item {
+  width: 100%;
+}
+
+@media (min-width: $tablet) {
+  .form-header__competition-title {
+    font-size: 50px;
+    line-height: 60px;
+    padding: 0;
+    padding-top: 90px;
+    padding-bottom: 80px;
+    margin-bottom: 86px;
+  }
+}
+
+@media (min-width: $tablet) {
+  .form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 17px;
+  }
+}
+
+@media (min-width: $desktop) {
+  .form {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+@media (min-width: $desktop) {
+  .form-header__competition-title {
+    padding-top: 75px;
+    padding-bottom: 101px;
+  }
+}

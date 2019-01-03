@@ -1,0 +1,62 @@
+.competition-text {
+  font-family: $font-family;
+  font-size: 14px;
+  line-height: 30px;
+  color: $text-color;
+  font-weight: 400;
+  text-align: center;
+  margin: 0;
+  padding-top: 5px;
+  margin-bottom: 35px;
+}
+
+.feel-in {
+  font-family: $font-family;
+  font-size: 14px;
+  line-height: 30px;
+  color: $text-color;
+  font-weight: 400;
+  text-align: center;
+  display: none;
+}
+
+@media (min-width: $tablet) {
+  .competition-text {
+    width: 400px;
+    margin-left: 110px;
+  }
+}
+
+@media (min-width: $tablet) {
+  .competition-text {
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 400;
+    margin: 0;
+    margin-left: 61px;
+    width: 499px;
+    margin-bottom: 73px;
+  }
+}
+
+@media (min-width: $tablet) {
+  .feel-in {
+    display: block;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 400;
+    margin: 0;
+    margin-bottom: 73px;
+  }
+}
+
+@media (min-width: $desktop) {
+  .competition-text {
+    margin-left: 83px;
+    margin-right: 60px;
+    line-height: 31px;
+    width: 775px;
+    text-align: center;
+    margin-bottom: 70px;
+  }
+}

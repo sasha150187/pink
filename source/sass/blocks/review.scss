@@ -1,0 +1,114 @@
+.review__author-name {
+  font-family: $font-family;
+  font-size: 18px;
+  line-height: 30px;
+  color: $black;
+  font-weight: 700;
+  font-style: normal;
+  text-align: center;
+  display: block;
+  margin-bottom: 12px;
+}
+
+.review__text {
+  font-family: $font-family;
+  font-size: 14px;
+  line-height: 30px;
+  color: $text-color;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+.review__list {
+  display: flex;
+  position: relative;
+}
+
+.review__item {
+  margin: 0;
+}
+
+.review {
+  margin-bottom: 30px;
+}
+
+.review-description {
+  font-family: $font-family;
+  font-size: 14px;
+  line-height: 14px;
+  color: $text-color;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 35px;
+  display: none;
+}
+
+@media (min-width: $tablet) {
+  .review {
+    margin-bottom: 10px;
+  }
+}
+
+@media (min-width: $tablet) {
+  .review-description {
+    display: block;
+    order: -1;
+  }
+}
+
+@media (min-width: $tablet) {
+  .review__item {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+
+@media (min-width: $desktop) {
+  .review {
+    margin-top: 10px;
+    padding-top: 175px;
+    position: relative;
+  }
+}
+
+@media (min-width: $desktop) {
+  .review__text {
+
+    &::before {
+      content: "";
+      position: absolute;
+      background-image: url("../../img/quotes.png");
+      background-repeat: no-repeat;
+      width: 79px;
+      height: 63px;
+      bottom: 269px;
+      left: 434px;
+    }
+  }
+}
+
+@media (min-width: $desktop) {
+  .review__text {
+    font-size: 18px;
+    line-height: 30px;
+    width: 787px;
+    margin-left: 77px;
+  }
+}
+
+@media (min-width: $desktop) {
+  .review__author-name {
+    font-size: 24px;
+    line-height: 30px;
+    margin-left: 76px;
+  }
+}
+
+@media (min-width: $desktop) {
+  .review-description {
+    font-size: 18px;
+    line-height: 18px;
+    margin-left: 76px;
+  }
+}

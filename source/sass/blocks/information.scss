@@ -1,0 +1,221 @@
+.information {
+  background-color: transparent;
+  padding-top: 28px;
+  width: 100%;
+  padding-top: 419px;
+  position: relative;
+
+  &::before {
+    content: "";
+    position: absolute;
+    background: url("../../img/iphone-hand-mobile@1x.png") no-repeat;
+    width: 320px;
+    height: 314px;
+    bottom: 242px;
+    right: -20px
+  }
+}
+
+.information__link {
+  background-color: transparent;
+  font-family: $font-family;
+  font-size: 18px;
+  line-height: 18px;
+  color: $white-color;
+  font-weight: 700;
+  border: 3px solid $white-color;
+  border-radius: 40px;
+  padding: 0 20px;
+  margin-bottom: 25px;
+  display: block;
+  text-align: center;
+  padding-top: 14px;
+  padding-bottom: 17px;
+}
+
+.information__availability {
+  font-family: $font-family;
+  font-size: 14px;
+  line-height: 24px;
+  color: $white-color;
+  font-weight: 300;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.information-list {
+  display: flex;
+  justify-content: space-between;
+  width: 221px;
+  margin-left: 37px;
+  margin-bottom: 25px;
+}
+
+.information-list__item {
+  position: relative;
+  width: 60px;
+  height: 60px;
+}
+
+.information__title {
+  font-family: $font-family;
+  font-size: 40px;
+  line-height: 40px;
+  color: $white-color;
+  font-weight: 300;
+  text-align: center;
+  display: none;
+}
+
+.information-list__link--ios {
+  position: absolute;
+  background: url("../../img/logo-apple.svg") no-repeat 50% 50%;
+  background-size: 47px 56px;
+  width: 47px;
+  height: 56px;
+  top: 7px;
+}
+
+.information-list__link--android {
+  position: absolute;
+  background: url("../../img/logo-android.svg") no-repeat 50% 50%;
+  background-size: 43px 47px;
+  width: 47px;
+  height: 52px;
+  top: 12px;
+}
+
+.information-list__link--microsoft {
+  position: absolute;
+  background: url("../../img/logo-microsoft.svg") no-repeat 50% 50%;
+  background-size: 44px 41px;
+  width: 47px;
+  height: 56px;
+  top: 11px;
+}
+
+@media (min-width: $tablet) {
+  .information__availability {
+    font-family: $font-family;
+    font-size: 18px;
+    line-height: 24px;
+    color: $white-color;
+    font-weight: 300;
+    text-align: center;
+    padding-bottom: 30px;
+  }
+}
+
+@media (min-width: $tablet) {
+  .information {
+    z-index: 20;
+
+    &::before {
+      content: "";
+      position: absolute;
+      background: url("../../img/tablet-mobile.png") no-repeat;
+      background-position: center center;
+      width: 660px;
+      height: 540px;
+      bottom: 0;
+      left: -16px;
+      z-index: -1;
+    }
+  }
+}
+
+@media (min-width: $tablet) {
+  .information-list {
+    margin-left: 46px;
+    margin-bottom: 40px;
+  }
+}
+
+@media (min-width: $tablet) {
+  .information__title {
+    font-family: $font-family;
+    font-size: 40px;
+    line-height: 48px;
+    color: $white-color;
+    font-weight: 300;
+    text-align: center;
+    display: block;
+    width: 246px;
+    padding-top: 58px;
+    padding-left: 53px;
+    padding-bottom: 31px;
+  }
+}
+
+@media (min-width: $tablet) {
+  .information {
+    background-color: transparent;
+    padding-top: 54px;
+    width: 300px;
+    padding-bottom: 78px;
+  }
+}
+
+@media (min-width: $tablet) {
+  .information__link {
+    margin-bottom: 40px;
+  }
+}
+
+@media (min-width: $desktop) {
+  .information {
+    z-index: 20;
+
+    &::before {
+      content: "";
+      position: absolute;
+      background: url("../../img/desktop-mobile.png") no-repeat;
+      background-position: center center;
+      width: 1050px;
+      height: 645px;
+      bottom: 0;
+      left: 16px;
+      z-index: -1;
+    }
+  }
+}
+
+@media (min-width: $desktop) {
+  .information__title {
+    font-family: $font-family;
+    font-size: 50px;
+    line-height: 60px;
+    color: $white-color;
+    font-weight: 300;
+    text-align: center;
+    display: block;
+    width: 271px;
+    padding-top: 81px;
+    padding-left: 33px;
+    padding-bottom: 51px;
+  }
+}
+
+@media (min-width: $desktop) {
+  .information {
+    background-color: transparent;
+    padding-top: 40px;
+    width: 300px;
+    padding-bottom: 92px;
+  }
+}
+
+@media (min-width: $desktop) {
+  .information__link {
+    font-size: 21px;
+    line-height: 21px;
+    padding-bottom: 14px;
+    margin-bottom: 60px;
+  }
+}
+
+@media (min-width: $desktop) {
+  .information-list {
+    margin-bottom: 58px;
+  }
+}

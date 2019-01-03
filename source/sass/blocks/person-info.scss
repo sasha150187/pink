@@ -1,0 +1,98 @@
+.person-info__label {
+  font-family: $font-family;
+  font-size: 14px;
+  line-height: 30px;
+  color: $color-pink;
+  font-weight: 400;
+  text-transform: uppercase;
+  padding-left: 22px;
+  display: block;
+  margin-bottom: 4px;
+}
+
+.person-info__input {
+  border: 2px solid $border-color;
+  width: 100%;
+  box-sizing: border-box;
+  height: 62px;
+  margin-bottom: 19px;
+  outline: none;
+  padding: 10px 20px;
+}
+
+.person-info__input::placeholder {
+  color: $text-color;
+  font-family: $font-family;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 400;
+}
+
+.person-info {
+  border: none;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 60px;
+}
+
+.person-info__list {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: $tablet) {
+  .person-info__input {
+    width: 525px;
+    margin-bottom: 53px;
+  }
+}
+
+@media (min-width: $tablet) {
+  .person-info {
+    order: -2;
+  }
+}
+
+@media (min-width: $tablet) {
+  .person-info__list {
+    margin-bottom: -56px;
+  }
+}
+
+@media (min-width: $tablet) {
+  .person-info__input--long {
+    width: 566px;
+  }
+}
+
+@media (min-width: $tablet) {
+  .person-info__label {
+    display: inline-block;
+    padding-left: 0;
+    margin-right: 14px;
+  }
+}
+
+@media (min-width: $desktop) {
+  .person-info {
+    order: -11;
+  }
+}
+
+@media (min-width: $desktop) {
+  .person-info__input {
+    width: 340px;
+  }
+}
+
+@media (min-width: $desktop) {
+  .person-info__list {
+    padding-top: 16px;
+  }
+}
+
+@media (min-width: $desktop) {
+  .person-info__input--long {
+    width: 382px;
+  }
+}

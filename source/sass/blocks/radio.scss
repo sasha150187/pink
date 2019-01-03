@@ -1,0 +1,83 @@
+.radio-filter {
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+.radio-filter__legend {
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+  font-family: $font-family;
+  color: $color-pink;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 0 22px;
+  margin-bottom: 42px;
+}
+
+.radio-filter__input {
+  display: none;
+}
+
+.radio-filter__label {
+  font-family: $font-family;
+  font-size: 18px;
+  line-height: 24px;
+  color: $text-color;
+  font-weight: 400;
+  padding-left: 70px;
+  display: block;
+  margin-bottom: 51px;
+}
+
+.radio-filter__list {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 34px;
+}
+
+@media (min-width: $tablet) {
+  .radio-filter {
+    order: -1;
+    border: 2px solid $border-color;
+    margin-bottom: 56px;
+  }
+}
+
+@media (min-width: $tablet) {
+  .radio-filter__list {
+    margin-bottom: 11px;
+  }
+}
+
+@media (min-width: $tablet) {
+  .radio-filter__label {
+    padding-left: 118px;
+  }
+}
+
+@media (min-width: $tablet) {
+  .radio-filter__legend {
+    margin-bottom: 51px;
+  }
+}
+
+@media (min-width: $desktop) {
+  .radio-filter {
+    width: 470px;
+    order: -10;
+  }
+}
+
+@media (min-width: $desktop) {
+  .radio-filter {
+    width: 435px;
+  }
+}
+
+@media (min-width: $desktop) {
+  .radio-filter__label {
+    padding-left: 134px;
+  }
+}

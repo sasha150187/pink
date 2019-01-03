@@ -1,0 +1,403 @@
+.catalog__likes {
+  font-family: $font-family;
+  font-size: 12px;
+  line-height: 24px;
+  color: $color-pink;
+  font-weight: 400;
+  text-transform: uppercase;
+  padding-left: 32px;
+}
+
+.catalog {
+  margin-bottom: 62px;
+}
+
+.catalog__title {
+  font-family: $font-family;
+  font-size: 14px;
+  line-height: 24px;
+  color: $text-color;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 3px;
+  margin-left: -3px;
+}
+
+.catalog__action {
+  font-family: $font-family;
+  font-size: 14px;
+  line-height: 30px;
+  color: $text-color;
+  font-weight: 400;
+  text-align: center;
+  margin-left: -3px;
+}
+
+.catalog__visit-time {
+  font-family: $font-family;
+  font-size: 12px;
+  line-height: 30px;
+  color: $text-color;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.catalog__block {
+  background-color: $bg-light-gray;
+  padding-left: 18px;
+  padding-right: 18px;
+  padding-top: 15px;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.сatalog__name-link {
+  font-family: $font-family;
+  font-size: 18px;
+  line-height: 30px;
+  color: $black;
+  font-weight: 700;
+}
+
+.catalog__text {
+  font-family: $font-family;
+  font-size: 14px;
+  line-height: 24px;
+  color: $text-color;
+  font-weight: 400;
+  margin-top: -4px;
+  margin-bottom: 10px;
+}
+
+.catalog__list {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 24px;
+}
+
+.catalog-img--prospekt {
+  width: 320px;
+}
+
+.catalog__link--prospekt {
+  display: block;
+  background-image: url("../../img/panorama-mobile@1x.jpg");
+  background-size: 320px 137px;
+  width: 320px;
+  height: 137px;
+  margin-left: -20px;
+}
+
+.catalog__link {
+  width: 280px;
+  height: 180px;
+}
+
+.catalog__name-link {
+  font-family: $font-family;
+  font-size: 14px;
+  line-height: 30px;
+  color: $text-color;
+  font-weight: 700;
+}
+
+.catalog__item:nth-child(3) .catalog__block {
+  padding-top: 15px;
+  margin-top: -4px;
+}
+
+.catalog__item:nth-child(3) .catalog__text {
+  margin-bottom: 11px;
+}
+
+.catalog__item:nth-child(2) .catalog__block {
+  padding-top: 15px;
+  margin-top: -4px;
+  margin-bottom: 19px;
+}
+
+.catalog__item:nth-child(4) .catalog__block {
+  padding-top: 15px;
+  margin-top: -4px;
+}
+
+.catalog__item:nth-child(5) .catalog__block {
+  padding-top: 15px;
+  margin-top: -4px;
+  margin-bottom: 21px;
+}
+
+.catalog__item:nth-child(6) .catalog__text {
+  margin-bottom: 11px;
+}
+
+.catalog__item:nth-child(6) .catalog__block {
+  padding-top: 15px;
+  margin-top: -4px;
+}
+
+.catalog__item:nth-child(7) .catalog__block {
+  padding-top: 15px;
+  margin-top: -4px;
+}
+
+.catalog__link--tablet,
+.catalog__link--desktop {
+  display: none;
+}
+
+@media (min-width: $tablet) {
+  .catalog__item:nth-child(5) .catalog__block {
+    padding-top: 21px;
+    margin-top: -4px;
+    margin-bottom: 21px;
+    padding-left: 28px;
+    padding-bottom: 21px;
+  }
+}
+
+@media (min-width: $tablet) {
+  .catalog__title {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 6px;
+  }
+}
+
+@media (min-width: $tablet) {
+  .catalog__action {
+    font-size: 18px;
+    line-height: 24px;
+  }
+}
+
+@media (min-width: $tablet) {
+  .catalog__item:nth-child(6) .catalog__block {
+    padding-top: 21px;
+    padding-left: 28px;
+    padding-bottom: 22px;
+  }
+}
+
+@media (min-width: $tablet) {
+  .catalog__item:nth-child(7) .catalog__block {
+    padding-top: 21px;
+    padding-left: 28px;
+    padding-bottom: 22px;
+  }
+}
+
+@media (min-width: $tablet) {
+  .catalog__item:nth-child(7) .catalog__text {
+    margin-bottom: 37px;
+  }
+}
+
+@media (min-width: $tablet) {
+  .catalog__item:nth-child(6) .catalog__text {
+    margin-bottom: 37px;
+  }
+}
+
+@media (min-width: $tablet) {
+  .catalog__item:nth-child(5) .catalog__text {
+    margin-bottom: 37px;
+  }
+}
+
+@media (min-width: $tablet) {
+  .catalog__item:nth-child(2) .catalog__text {
+    margin-bottom: 13px;
+  }
+}
+
+@media (min-width: $tablet) {
+  .catalog__item:nth-child(4) .catalog__block {
+    padding-top: 21px;
+    padding-left: 28px;
+  }
+}
+
+@media (min-width: $tablet) {
+  .catalog__item:nth-child(4) .catalog__text {
+    margin-bottom: 13px;
+  }
+}
+
+@media (min-width: $tablet) {
+  .catalog__item:nth-child(3) .catalog__block {
+    padding-top: 21px;
+    padding-left: 28px;
+    padding-bottom: 22px;
+  }
+}
+
+@media (min-width: $tablet) {
+  .catalog__item:nth-child(3) .catalog__text {
+    margin-bottom: 37px;
+  }
+}
+
+@media (min-width: $tablet) {
+  .catalog__item:first-child .catalog__block {
+    width: 620px;
+    padding-top: 21px;
+    padding-left: 28px;
+    padding-bottom: 16px;
+    margin-bottom: 49px;
+  }
+}
+
+@media (min-width: $tablet) {
+  .catalog__likes {
+    padding-left: 0;
+  }
+}
+
+@media (min-width: $tablet) {
+  .catalog__item:nth-child(2) .catalog__block {
+    padding-top: 21px;
+    margin-top: -4px;
+    margin-bottom: 19px;
+    padding-left: 28px;
+    padding-bottom: 22px;
+  }
+}
+
+@media (min-width: $tablet) {
+  .catalog__link {
+    width: 300px;
+    height: 304px;
+  }
+}
+
+@media (min-width: $tablet) {
+  .catalog__link--mob {
+    display: none;
+  }
+}
+
+@media (min-width: $tablet) {
+  .catalog__link--tablet {
+    display: block;
+  }
+}
+
+@media (min-width: $tablet) {
+  .catalog__list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 48px;
+  }
+}
+
+@media (min-width: $tablet) {
+  .catalog__likes--prospekt {
+    position: absolute;
+    top: 25px;
+    right: 59px;
+  }
+}
+
+@media (min-width: $tablet) {
+  .catalog__item {
+    width: 300px;
+  }
+}
+
+@media (min-width: $tablet) {
+  .catalog__item:first-child {
+    width: 620px;
+  }
+}
+
+@media (min-width: $tablet) {
+  .catalog__link--prospekt {
+    display: block;
+    background-image: url("../../img/panorama-tablet.jpg");
+    background-size: 660px 509px;
+    width: 660px;
+    height: 509px;
+    margin-left: -20px;
+  }
+}
+
+@media (min-width: $desktop) {
+  .catalog__item:first-child {
+    width: 940px;
+  }
+}
+
+@media (min-width: $desktop) {
+  .catalog__link--prospekt {
+    display: block;
+    background-image: url("../../img/panorama-desktop.jpg");
+    background-size: 1200px 506px;
+    background-position: center center;
+    width: 1200px;
+    height: 506px;
+    margin-left: -130px;
+  }
+}
+
+@media (min-width: $desktop) {
+  .catalog__item:first-child .catalog__block {
+    width: 940px;
+    padding-top: 21px;
+    padding-left: 28px;
+    padding-bottom: 14px;
+    margin-bottom: 49px;
+  }
+}
+
+@media (min-width: $desktop) {
+  .catalog__likes--prospekt {
+    right: 62px;
+  }
+}
+
+@media (min-width: $desktop) {
+  .catalog__link {
+    width: 300px;
+    height: 405px;
+  }
+}
+
+@media (min-width: $desktop) {
+  .catalog__link--tablet {
+    display: none;
+  }
+}
+
+@media (min-width: $desktop) {
+  .catalog__link--desktop {
+    display: block;
+  }
+}
+
+@media (min-width: $desktop) {
+  .catalog__block {
+    margin-bottom: 54px;
+  }
+}
+
+@media (min-width: $desktop) {
+  .catalog__list {
+    margin-bottom: 7px;
+  }
+}
+
+@media (min-width: $desktop) {
+  .catalog__title {
+    margin-left: 1px;
+  }
+}
+
+@media (min-width: $desktop) {
+  .catalog__action {
+    margin-left: 1px;
+  }
+}
